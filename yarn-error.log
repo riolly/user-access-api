@@ -1,0 +1,36 @@
+Arguments: 
+  /home/cahyantara/.nvm/versions/node/v12.16.3/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/cahyantara/.local/bin:/home/cahyantara/.nvm/versions/node/v12.16.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/Alberto Riolly/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0:/mnt/c/windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/Users/Alberto Riolly/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Users/Alberto Riolly/Downloads/Compressed/ffmpeg-20200721-b5f1e05-win64-static/bin:/mnt/c/Program Files (x86)/Vim/vim82:/mnt/c/Users/Alberto Riolly/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Alberto Riolly/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Alberto Riolly/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Program Files/Heroku/bin:/mnt/c/Users/Alberto Riolly/AppData/Roaming/npm:/mnt/c/Users/Alberto Riolly/AppData/Local/Yarn/bin:/mnt/c/Users/Alberto Riolly/AppData/Local/Programs/VSCodium/bin:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:310:20)
+      at Interface._ttyWrite (readline.js:893:16)
+      at ReadStream.onkeypress (readline.js:198:10)
+      at ReadStream.emit (events.js:310:20)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:310:20)
+      at addChunk (_stream_readable.js:286:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
