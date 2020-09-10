@@ -7,7 +7,7 @@ npm i
 ```
 
 ## DB Setup
-In config.ts provide a **database name, username, and password** to connect to your local database and make sure the running. 
+In config.ts provide a **database name, username, and password** to connect to your local database and make sure it's running. 
 
 ## Run the service 
 1. Compile typescript into javascript
@@ -29,7 +29,7 @@ npm run dev
 POST localhost:4000/register
 
 **Request body**
-```json
+```
 {
   email: "foo@gmail.com",
   password: "bar"
@@ -37,7 +37,7 @@ POST localhost:4000/register
 ```
 
 Successful response
-```json
+```
 201 Created
 {
   message: "register success",
@@ -45,7 +45,7 @@ Successful response
 ```
 
 Failed response
-```json
+```
 400 Bad request
 {
   error: "please fill email and password correctly'" 
@@ -56,7 +56,7 @@ Failed response
 POST localhost:4000/login
 
 **Request body**
-```json
+```
 {
   email: "foo@gmail.com",
   password: "bar"
@@ -64,7 +64,7 @@ POST localhost:4000/login
 ```
 
 Successful response
-```json
+```
 200 Success
 {
   message: "login success",
@@ -73,7 +73,7 @@ Successful response
 ```
 
 Failed response
-```json
+```
 400 Bad request
 {
   error: "please provide email and password" 
@@ -87,17 +87,18 @@ Failed response
 
 ### getUser
 Use the access_token from login to get the user data
+
 GET localhost:4000/getUser
 
 **Request headers**
-```json
+```
 {
-  access_token: "amvi0h8y9ughuiedbv7r8vgh7(HC&yg&(YG*^G*YGOIL",
+  access_token: "amvi0h8y9ughuiedbv7r8vgh7HC&yg&YG*^G*YGOIL"
 }
 ```
 
 Successful response
-```json
+```
 200 Success
 {
   id: 1,
@@ -107,7 +108,7 @@ Successful response
 ```
 
 Failed response
-```json
+```
 400 Bad request
 {
   error: "please provide a valid access token" 
